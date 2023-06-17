@@ -11,6 +11,7 @@ const div = ref()
 const close = () => {
   show.value = !show.value
 }
+
 const starting = () =>{
 let timer = 0 
 let start = setInterval(()=>{
